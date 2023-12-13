@@ -6,7 +6,7 @@ import {Canvas} from '@react-three/fiber';
 import './3DModel.css';
 
 const ModelCanvas = ({scale}) =>{
-    const gltf = useLoader(GLTFLoader, "./public/solarSystem/scene.gltf");
+    const gltf = useLoader(GLTFLoader, "/public/solarSystem/scene.gltf");
     const modelRef = useRef();
 
     return <primitive object={gltf.scene} ref={modelRef} scale={scale}/>;
