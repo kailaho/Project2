@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-image: url('../src/assets/img/stars.jpg');
+  text-align: center;
+}
+
+#title{
+  text-align: left;
+}
+
