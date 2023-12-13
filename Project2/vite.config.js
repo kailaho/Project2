@@ -8,5 +8,9 @@ export default defineConfig({
   
   paths: {
     "*": ["*", "*.jsx"]
+  },
+
+  build: {
+    outDir: 'dist',
   }
 })
