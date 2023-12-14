@@ -7,6 +7,7 @@ import {Canvas} from '@react-three/fiber'
 import {OrbitControls} from '@react-three/drei'
 
 
+
 function App() {
   return (
    
@@ -111,6 +112,13 @@ function App() {
         Moons={"14 moons"}
       >
       </PlanetCard>
+
+      <div>
+
+        <a href="src/quiz.html">
+          <button>quiz</button>
+        </a>
+      </div>
 
 
       
