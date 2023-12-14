@@ -115,9 +115,9 @@ function App() {
 
       <div>
 
-        <a href="src/quiz.html">
-          <button>quiz</button>
-        </a>
+      <a href="../quiz.html">
+        <button>quiz</button>
+      </a>
       </div>
 
 
